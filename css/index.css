@@ -1,0 +1,16 @@
+h1{
+    font-family: Cambria,Times,sans-serif,serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Content{
+    font-size: medium;
+    font-family: cursive,Times,serif;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: inherit;
+    background-color:aqua;
+}

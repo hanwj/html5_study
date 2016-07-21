@@ -1,0 +1,104 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdane,sans-serif;
+    max-width: 800px;
+}
+.Header{
+    background-color: #7695FE;
+    border: thin #336699 solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.Header h1{
+    margin: 0px;
+    font-size: xx-large;
+    color: white;
+}
+
+.Header .Teaser{
+    margin: 0px;
+    font-weight: bold;
+}
+
+.Header .Byline{
+    margin: 0px;
+    font-style: italic;
+    font-size: small;
+}
+
+.Content{
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, "Time New Roman", serif;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 120%;
+}
+
+.Content h2{
+    color: #24486C;
+    margin-bottom: 2px;
+    font-size: medium;
+}
+
+.Content p{
+    margin-top: 0px;
+}
+
+.Floatingfigure{
+    float: left;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Floatingfigure p{
+    max-width: 200px;
+    font-size: small;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Footer{
+    text-align: center;
+    font-size: x-small;
+}
+
+.Footer .Disclaimer{
+    font-style: italic;
+}
+
+
+.Footer p{
+    margin: 5px;
+}
+
+#FatFooter{
+    position: fixed;
+    height: 200px;
+    width: 100%;
+    bottom: 0px;
+    background: #ECD672;
+    border-top: thin solid black;
+    font-size: small;
+}
+
+#FatFooter .CloseButton{
+    cursor: pointer;
+    float: right;
+    margin: 4px;
+}
+
+#FatFooter .FloatBox{
+    float: left;
+    padding: 10px;
+}
+
+#FatFooter .FixedFooter{
+    clear: both;
+    text-align: center
+}

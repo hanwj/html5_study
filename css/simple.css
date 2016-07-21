@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: green;
+}
+
+/*类格式化元素*/
+.ArticleTitle{
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+/*多个选择符*/
+h1,h2{
+    font-family: serif;
+    font-size: 30px;
+}
+
+/*上下文选择符*/
+.Content h2{
+    font-size: 20px;
+    color: blue;
+}
+
+/*ID选择符*/
+#Menu{
+    font-size: 35px;
+    color: black;
+}
+
+/*伪类选择符*/
+/*新的，为访问过的*/
+a:link{
+    color: red;
+}
+/*访问过后*/
+a:visited{
+    color: blue;
+}
+/*鼠标悬停*/
+a:hover{
+    color:cornflowerblue
+}
+/*鼠标点击未抬起*/
+a:active{
+    color: black;
+}
